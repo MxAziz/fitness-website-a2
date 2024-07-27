@@ -5,27 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fitness Website</title>
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="shortcut icon" href="./images/icon.png" type="image/x-icon">
 </head>
 <body>
-    <header class="banner-container">
-        <nav class="nav-container">
-            <h3 class="fitness"><i>Fitness</i></h3>
 
-            <div class="home-container">
-                <ul class="list-parent">
-                    <li class="btn-primary"><a href="">Home</a></li>
-                    <li><a href="">Service</a></li>
-                    <li><a href="">Contact</a></li>
-                    <li><a href="">About</a></li>
-                </ul>
-            </div>
-        </nav>
+    <header class="banner-container ">
+        <!-- ERROR 👇 -->
+
+        <div class="menu-container">
+
+            
+            <nav class="nav-container">
+                <h3 class="fitness"><i>Fitness</i></h3>
+                
+                <div class="home-container">
+                    <ul class="list-parent">
+                        <li class="btn-primary"><a href="">Home</a></li>
+                        <li><a href="">Service</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">About</a></li>
+                    </ul>
+                </div>
+            </nav>
+            
+        </div>
 
         <div class="content-img-container">
 
             <div class="healthy-container">
-                <h1 class="h-title">Get body in <span>shape</span> & stay healthy</h1>
-                <p class="description-primary h-description">A huge selection of health and fitness content, healthy recipes and transformation stories to help you get fit and stay fit!</p>
+                <h1 class="h-title">Get body in <span class="shape">shape</span> & stay healthy</h1>
+                <p class="description-primary h-description">A huge selection of health and fitness content, healthy recipes <br> and transformation stories to help you get fit and stay fit!</p>
                 
                 <div>
                     <button class="banner-btn">Join Club Now!</button>
@@ -34,8 +43,8 @@
 
             </div>
 
-            <div >
-                <div class="profile-pic">
+            <div class="profile-pic">
+                <div >
                     <img src="./images/banner-pic.png" alt="banner profile picture">
                 </div>
 
@@ -52,18 +61,220 @@
                 </div>
 
             </div>
-
-
-
         </div>
-
     </header>
 
     <main>
+        <!-- habits section starts here  -->
+         <section class="habits-container">
+            <div class="habit-td">
+                <h2 class="habit-title">
+                    Change Your Habits 
+                </h2>
+                <p class="description-primary habit-description">We believe fitness should be accessible to everyone, everywhere, regardless of income or<br> access to a gym.</p>
+            </div>
 
+            <div class="habit-img-container">
+
+                <div class="habit1 center">
+                    <img class="img-circle" src="./images/habit1.png" alt="">
+                        <h3 class="hbt-title">Movement</h3>
+                        <p class="habit-description description-primary">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+                <div class="habit2 center">
+                    <img class="img-circle" src="./images/habit2.png" alt="">
+
+                        <h3 class="hbt-title">Time</h3>
+                        <p class="habit-description description-primary">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+                <div class="habit3 center">
+                    <img class="img-circle" src="./images/habit3.png" alt="">
+
+                        <h3 class="hbt-title">Practice</h3>
+                        <p class="habit-description description-primary">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+                <div class="habit4 center">
+                    <img class="img-circle" src="./images/habit4.png" alt="">
+                        <h3 class="hbt-title">weight Loss</h3>
+                        <p class="habit-description description-primary">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+            </div>
+         </section>
+        <!-- habits section ends here  -->
+
+        <!-- Run section starts here  -->
+         <section class="run-container">
+
+            <div class="run-info">
+                <h2 class="habit-title">Run an Extra <br> Mile Easily</h2>
+                <p class="description-primary habit-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Obcaecati eos architecto numquam quidem ducimus facere <br> molestias veniam quia ipsa fugiat.</p>
+                <div class="run-btn">
+                    <button class=" btn-primary banner-btn">Join Now</button>
+                </div>
+            </div>
+
+            <div class="run-img">
+                <img src="./images/run.jpg" alt="">
+            </div>
+
+         </section>
+        <!-- Run section ends here  -->
+
+
+        <!-- BMI section starts here  -->
+         <div class="bmi-header">
+            <h2 class="habit-title">BMI Calculator</h2>
+            <p class="description-primary habit-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat voluptates a est <br> error sint neque.</p>
+         </div>
+
+         <!-- ERROR 👇 -->
+         <section class="calculation-container ">
+
+           <div class="cc-container">
+
+              <div class="chart-container">
+                <h3 class="calculation-title">BMI Calculator Chart</h3>
+                
+                <table border="1" >
+                    <tr>
+                        <th align="left">BMI</th>
+                        <th align="left">Weight Status</th>
+                    </tr>
+                    <tr>
+                        <td>Below 18.5</td>
+                        <td>Underweight</td>
+                    </tr>
+                    <tr>
+                        <td>18.5-24.9</td>
+                        <td>Healthy </td>
+                    </tr>
+                    <tr>
+                        <td>25.0-29.9</td>
+                        <td>Overweight</td>
+                    </tr>
+                    <tr>
+                        <td>30.0-and Above</td>
+                        <td>Obese</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="calculate-container">
+                <h3 class="calculation-title">Calculate your BMI</h3>
+                <p class="description-primary">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt magni consectetur pariatur hic numquam animi quas?</p>
+                
+                <!-- again start 🤡 -->
+                
+                <div class="input-field">
+                    <input class="pk" type="number" placeholder="Height/cm"> 
+                    <input type="number" placeholder="Weight/Kg"> 
+                    <input type="number" name="" id="" placeholder="Age">
+                    <input type="text" placeholder="Sex" >
+                    <input class="activity" type="text" placeholder="Select an activity factor">
+                    <!-- error 👇 -->
+                    <!-- <select  name="" id="">
+                        <option value="">Sex   </option>
+                        <option value="">Male</option>
+                        <option value="">Female</option> 
+                    </select> <br> -->
+                    <!-- <select name="" id="">
+                        <option value="">Select an activity factor</option>
+                    </select> -->
+                </div>
+                <button class="banner-btn">Calculate</button>
+            </div>
+          </div>
+        </section>
+        <!-- BMI section ends here  -->
+
+
+         <!-- team section starts here  -->
+          <div class="team-header">
+             <h2 class="habit-title">Meet Our Team</h2>
+                <p class="description-primary">We have 6 skilled trainers, who will make you proficient in Calisthenics</p>
+          </div>
+
+          <div class="team-img-container">
+            <div class="team-img">
+                <img src="./images/trainer1.png" alt="">
+                <div class="move">
+                    <h3 class="tainer-name">Jerome Bell</h3>
+                    <p class="description-primary">Trainer</p>
+                </div>
+            </div>
+            <div class="team-img">
+                <img src="./images/trainer2.png" alt="">
+                <div class="move">
+                    <h3 class="tainer-name">Cameron Williamson</h3>
+                    <p class="description-primary">Trainer</p>
+                </div>
+            </div>
+            <div class="team-img">
+                <img src="./images/trainer3.png" alt="">
+                <div class="move">
+                    <h3 class="tainer-name">Darrell Steward</h3>
+                    <p class="description-primary">Trainer</p>
+                </div>
+            </div>
+            <div class="team-img">
+                <img src="./images/trainer4.png" alt="">
+                <div class="move">
+                    <h3 class="tainer-name">Dianne Russell</h3>
+                    <p class="description-primary">Trainer</p>
+                </div>
+            </div>
+            <div class="team-img">
+                <img src="./images/trainer5.png" alt="">
+                <div class="move">
+                    <h3 class="tainer-name">Cody Fisher</h3>
+                    <p class="description-primary">Trainer</p>
+                </div>
+            </div>
+            <div class="team-img">
+                <img src="./images/trainer6.png" alt="">
+                <div class="move">
+                    <h3 class="tainer-name">Theresa Webb</h3>
+                    <p class="description-primary">Trainer</p>
+                </div>
+            </div>
+
+          </div> 
+         <!-- team section ends here  -->
     </main>
 
-    <footer>
+    <footer class="footer-container ">
+        <div class="section3-container">
+            <div class="f-section">
+                <h1 id="fitness" class="fitness"><i>Fitness</i></h1>
+                <p class="description-primary">We believe fitness should be accessible to everyone,<br>
+                    everywhere, regardless of income or access to a gym. With <br>
+                    hundreds of professional workouts.</p>
+            </div>
+            <div class="started-section">
+                <h3 class="started-title">Get Started</h3>
+                <ul>
+                    <li><a href="">Service</a></li>
+                    <li><a href="">Contact Us</a></li>
+                    <li><a href="">Affiliate Program</a></li>
+                    <li><a href="">About Us</a></li>
+                </ul>
+
+            </div>
+            <div class="started-section">
+                <h3 class="started-title">Get Started</h3>
+                <ul>
+                    <li><a href="">Fitness</a></li>
+                    <li><a href="">Platform</a></li>
+                    <li><a href="">Workout Library</a></li>
+                    <li><a href="">App Design</a></li>
+                </ul>
+
+            </div>
+        </div>
+        <div class="reserved">
+            <hr color="#5a5858 " size="2"> <br>
+            <small class="description-primary copyright">All rights reserved @Fitness 2024</small>
+        </div>
 
     </footer>
 </body>

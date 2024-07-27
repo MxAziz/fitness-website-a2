@@ -18,9 +18,11 @@ body{
 background-color: rgb(230, 83, 60);
 }
 .description-primary{
-    font-size: 1rem;
-    font-weight: 400;
-    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.8rem;
+    font-weight: 50;
+    color: rgba(255, 255, 255, 0.502);
+    line-height: 20px;
+    
 }
 
 
@@ -28,8 +30,8 @@ background-color: rgb(230, 83, 60);
 .banner-container{
     width: 100%;
     height: 715px;
-    border: 2px solid red;
-    background-image: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+    padding-top: 8px;
+    background-image: linear-gradient(to bottom, #141414, #222222, #141414);
 }
 .nav-container{
     width: 75%;
@@ -64,34 +66,35 @@ background-color: rgb(230, 83, 60);
 .btn-primary{
     padding: 8px 20px 8px 20px;
 }
-.banner-btn{
-    color: white;
-}
 
-/* banner content and image  */
+/* (i) banner content and image  */
 
 .content-img-container{
     display: flex;
 }
 .healthy-container{
-    width: 560px;
+    max-width: 560px;
     height: 440px;
-    margin: 96px 137px 76px 160px;
+    margin: 96px 97px 70px 150px;
     display: flex;
     flex-direction: column;
+}
+.shape{
+    font-family: miama;
 }
 .h-title{
     width: 100%;
     font-size: 4.6rem;
     height: 282px;
     font-weight: 900;
-    margin-top: 0;
 }
 .h-description{
     margin: 24px 0 18px 0;
     margin-top: 50px;
 }
 .banner-btn{
+    color: white;
+
     padding: 16px 40px;
     border-radius: 42px;
     background-color: #E6533C;
@@ -110,8 +113,9 @@ background-color: rgb(230, 83, 60);
     background-color: rgb(7, 7, 7);
 }
 .profile-pic{
-    margin-bottom: 0;
+    margin-top: 28px;
 }
+
 .card1{
     width: 206px;
     height: 96px;
@@ -159,4 +163,365 @@ background-color: rgb(230, 83, 60);
     font-size: 2.3rem;
     font-weight: 900;
     color: #ebe9e9;
+}
+
+
+/* habits section style  */
+.habits-container{
+    width: 75%;
+    height: 450px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.habit-td{
+    width: 60%;
+    height: 120px;
+    margin: 0 auto;
+    text-align: center;
+}
+.habit-title{
+    font-size: 2.8rem;
+    font-weight: 900;
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+.habit-description{
+    font-size: 0.8rem;
+}
+.habit-img-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+    margin-top: 50px;
+}
+.img-circle{
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.center{
+    text-align: center;
+    /* margin-top: 30px; */
+}
+.hbt-title{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #efefee;
+    margin-bottom: 10px;
+}
+
+
+/* Run section style  */
+.run-container{
+    width: 75%;
+    height: 340px;
+    margin: 0 auto;
+    margin-top: 70px;
+    border-radius: 20px;
+    padding: 25px 25px 25px 40px;
+    background-color: rgba(33, 33, 33, 0.905);
+    display: flex;
+    justify-content: space-between;
+    gap: 190px;
+}
+.run-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.run-img{
+    width: 35%;
+}
+.run-btn{
+    margin-top: 20px;
+}
+
+
+/* bmi section style  */
+.bmi-header{
+    width: 50%;
+    height: 125px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+.calculation-container{
+    width: 100%;
+    height: 440px;
+    margin-top: 70px;
+    background-color: rgba(33, 33, 33, 0.905);
+    border: 1px solid rgba(33, 33, 33, 0.905);
+
+}
+.cc-container{
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    gap: 150px;
+    justify-content: space-between;
+}
+.input-field{
+    height: 150px;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 20px 0 20px 0;
+}
+.activity{
+    grid-column: span 2;
+}
+.input-field input{
+    background-color: #383737;
+    border-radius: 8px;
+    padding-left: 15px;
+    border: none;
+}
+
+.chart-container{
+    width: 400px;
+}
+.calculation-title{
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #ebe9e9;
+    margin-bottom: 40px;
+}
+table{
+    border-collapse: collapse;
+}
+tr th, td{
+    padding: 10px 25px 10px 15px;
+}
+tr td{
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* tr:nth-child(odd){
+    background-color: #282727;
+} */
+
+
+/* team section style  */
+.team-header{
+    text-align: center;
+    margin-top: 70px;
+}
+.team-img-container{
+    width: 75%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 70px;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: rgba(33, 33, 33, 0.905);
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+.team-img h3, p{
+    position: relative;
+}
+.team-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    opacity: 0.7;
+}
+
+.move{
+    margin-left: 20px;
+    margin-top: -55px;
+}
+
+/* footer style  */
+.footer-container{
+    width: 100%;
+    height: 430px;
+    margin: 0 auto;
+    margin-top: 70px;
+    background-color: rgba(26, 26, 26, 0.905);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.section3-container{
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#fitness{
+    font-size: 4rem;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.started-title{
+    font-size: 1.9rem;
+    margin-bottom: 20px;
+    color: rgb(240, 239, 239);
+}
+.started-section li{
+    list-style: none;
+}
+.started-section a{
+    text-decoration: none;
+    color: rgb(155, 151, 151);
+    line-height: 45px;
+    margin-left: 3px;
+    font-size: 1.3rem;
+}
+
+
+.reserved{
+    width: 75%;
+    height: 55px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.copyright{
+    font-size: 1.1rem;
+}
+
+
+/* small size device responsive */
+.hide{
+    display:none;
+}
+@media screen and (max-width:576px) {
+    .banner-container{
+        width: 100%;
+        min-width: 576px;
+        height: 1300px;
+    }
+    .content-img-container{
+        flex-direction: column;
+    }
+    .healthy-container{
+        width: 80%;
+        margin-left: 40px;
+    }
+    .h-title{
+        width: 90%;
+        font-size: 3.5rem;
+        height: 282px;
+        font-weight: 900;
+        margin-top: 0;
+    }
+    .profile-pic{
+        margin-left: 110px;
+        margin-top: 5px;
+    }
+    .card1{
+        margin-left: -40px;
+        margin-top: -330px;
+    }
+    .card2{
+        margin-left: 217px;
+        margin-top: -290px;
+    }
+    /* delete  */
+    .nav-container{
+        flex-direction: column;
+    }
+    .list-parent{
+        display: none;
+    }
+
+    /* habit section  */
+    .habit-img-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .habits-container{
+        width: 100%;
+        height: auto;
+        min-width: 576px;
+    }
+    .habit-td{
+        width: 100%;
+    }
+
+    /* run section */
+    .run-container{
+        flex-direction: column;
+        gap: 40px;
+        width: 90%;
+        height: auto;
+        min-width: 505px;
+        margin-top: 100px ;
+        margin-left: 36px;
+    }
+    .run-img{
+        width: 100%;
+    }
+
+    /* bmi section  */
+    .bmi-header{
+        width: 100%;
+        height: auto;
+        min-width: 490px;
+        margin-left: 36px;
+
+    }
+    .calculation-container{
+        width: 100%;
+        height: 180vh;
+        min-width: 576px;
+    }
+
+    .cc-container{
+        margin-top: 70px;
+        flex-direction: column;
+        gap: 80px;
+    }
+    .chart-container{
+        width: 100%;
+    }
+    .chart-container table{
+        width: 100%;
+    }
+
+    /* team section  */
+    .team-header{
+        min-width: 560px;
+    }
+    .team-img-container{
+        grid-template-columns: repeat(1,1fr);
+
+        gap: 40px;
+        width: 10%;
+        height: auto;
+        min-width: 505px;
+        margin-top: 70px ;
+        margin-left: 37px;
+    }
+    .team-img{
+        width: 90%;
+        height: 300px;
+        margin-left: 23px;
+    }
+
+    /* footer section responsive */
+    .section3-container{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .footer-container{
+        width: 100%;
+        min-width: 576px;
+        height: 900px;
+    }
+
+
+
+
 }
