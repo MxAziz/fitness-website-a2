@@ -19,7 +19,7 @@ background-color: rgb(230, 83, 60);
 }
 .description-primary{
     font-size: 0.8rem;
-    font-weight: 50;
+    font-weight: 400;
     color: rgba(255, 255, 255, 0.502);
     line-height: 20px;
     
@@ -34,10 +34,11 @@ background-color: rgb(230, 83, 60);
     background-image: linear-gradient(to bottom, #141414, #222222, #141414);
 }
 
-/* ERROR 👇 */
+/* ERROR  */
 .hamburger{
-display: ;
-
+    font-size: 1.7rem;
+    margin-top: 10px;
+    display: none;
 }
 
 
@@ -80,6 +81,7 @@ display: ;
 
 .content-img-container{
     display: flex;
+    min-width: 75%;
 }
 .healthy-container{
     max-width: 560px;
@@ -137,10 +139,11 @@ display: ;
     align-items: center;
     gap: 10px;
     border-radius: 12px;
-    backdrop-filter: blur(12px);
+    backdrop-filter: blur(10px);
     background: rgba(48, 48, 48, 0.54);
     margin-left: -113px;
     margin-top: -160px;
+    line-height: 20px;
 }
 .card1-title{
     font-size: 1.5rem;
@@ -170,11 +173,13 @@ display: ;
     padding-left: 20px;
     margin-left: 237px;
     margin-top: -387px;
+    line-height: 25px;
 }
 .card2-title{
     font-size: 2.3rem;
     font-weight: 900;
     color: #ebe9e9;
+    margin-top: 20px;
 }
 
 
@@ -509,10 +514,13 @@ tr td{
         margin-left: 217px;
         margin-top: -290px;
     }
-    /* delete  */
-    .nav-container{
-        flex-direction: column;
+    .home-container{
+        display: none;
     }
+    .hamburger{
+        display: block;
+    }
+
    
 
     /* habit section  */
