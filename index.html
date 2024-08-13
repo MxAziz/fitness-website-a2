@@ -3,14 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fitness Website</title>
+    <title>FitNess</title>
     <link rel="stylesheet" href="./styles/style.css">
-    <link rel="shortcut icon" href="./images/icon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./images/download (1).png" type="image/x-icon">
+    <link href="https://fonts.cdnfonts.com/css/miama" rel="stylesheet">
+    <link rel="manifest" href="https://fontawesome.com/icons">
+                
 </head>
 <body>
 
     <header class="banner-container ">
-        <!-- ERROR 👇 -->
 
         <div class="menu-container">
 
@@ -26,6 +28,9 @@
                         <li><a href="">About</a></li>
                     </ul>
                 </div>
+                <div class="hamburger hide">
+                    <i class="fa-solid fa-bars" ></i>
+                </div>
             </nav>
             
         </div>
@@ -33,8 +38,10 @@
         <div class="content-img-container">
 
             <div class="healthy-container">
-                <h1 class="h-title">Get body in <span class="shape">shape</span> & stay healthy</h1>
-                <p class="description-primary h-description">A huge selection of health and fitness content, healthy recipes <br> and transformation stories to help you get fit and stay fit!</p>
+                <h1 class="h-title">Get body in <span class="shape">shape</span>  & stay healthy</h1>
+                <p class="description-primary h-description">
+                    Provide essential tips and strategies for achieving fitness and maintain long-term health. Transform your routine and enjoy a healthier lifestyle!
+                </p>
                 
                 <div>
                     <button class="banner-btn">Join Club Now!</button>
@@ -71,7 +78,9 @@
                 <h2 class="habit-title">
                     Change Your Habits 
                 </h2>
-                <p class="description-primary habit-description">We believe fitness should be accessible to everyone, everywhere, regardless of income or<br> access to a gym.</p>
+                <p class="description-primary habit-description">
+                    "Change Your habit" offers practical strategies and tips to help you build and maintain positive habits for a better, healthier life. Start your transformation today!
+                </p>
             </div>
 
             <div class="habit-img-container">
@@ -79,24 +88,32 @@
                 <div class="habit1 center">
                     <img class="img-circle" src="./images/habit1.png" alt="">
                         <h3 class="hbt-title">Movement</h3>
-                        <p class="habit-description description-primary">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <p class="habit-description description-primary">
+                            Dynamic change or development in a particular direction.
+                            .</p>
                 </div>
                 <div class="habit2 center">
                     <img class="img-circle" src="./images/habit2.png" alt="">
 
                         <h3 class="hbt-title">Time</h3>
-                        <p class="habit-description description-primary">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <p class="habit-description description-primary">
+                            Continuous progression of events in measurable intervals.
+                        </p>
                 </div>
                 <div class="habit3 center">
                     <img class="img-circle" src="./images/habit3.png" alt="">
 
                         <h3 class="hbt-title">Practice</h3>
-                        <p class="habit-description description-primary">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <p class="habit-description description-primary">
+                            Repeated exercise or activity to improve skills.
+                        </p>
                 </div>
                 <div class="habit4 center">
                     <img class="img-circle" src="./images/habit4.png" alt="">
                         <h3 class="hbt-title">weight Loss</h3>
-                        <p class="habit-description description-primary">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <p class="habit-description description-primary">
+                            Reduce of body weight through various methods.
+                        </p>
                 </div>
             </div>
          </section>
@@ -107,14 +124,16 @@
 
             <div class="run-info">
                 <h2 class="habit-title">Run an Extra <br> Mile Easily</h2>
-                <p class="description-primary habit-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Obcaecati eos architecto numquam quidem ducimus facere <br> molestias veniam quia ipsa fugiat.</p>
+                <p class="description-primary habit-description">
+                    Learn simple strategies to easily go the extra mile in your <br> daily life. Discover how to stay motivated and manage <br> your energy for greater success with less effort.
+                </p>
                 <div class="run-btn">
                     <button class=" btn-primary banner-btn">Join Now</button>
                 </div>
             </div>
 
             <div class="run-img">
-                <img src="./images/run.jpg" alt="">
+                <img id="run-img" src="./images/run.jpg" alt="">
             </div>
 
          </section>
@@ -124,10 +143,11 @@
         <!-- BMI section starts here  -->
          <div class="bmi-header">
             <h2 class="habit-title">BMI Calculator</h2>
-            <p class="description-primary habit-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat voluptates a est <br> error sint neque.</p>
+            <p class="description-primary habit-description">
+                Quickly find your Body Mass Index with our easy-to-use tool. Get instant insights into your weight category and monitor your health and fitness progress.
+            </p>
          </div>
 
-         <!-- ERROR 👇 -->
          <section class="calculation-container ">
 
            <div class="cc-container">
@@ -160,26 +180,28 @@
             </div>
 
             <div class="calculate-container">
+
                 <h3 class="calculation-title">Calculate your BMI</h3>
-                <p class="description-primary">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt magni consectetur pariatur hic numquam animi quas?</p>
-                
-                <!-- again start 🤡 -->
+                <p class="description-primary">
+                    Easily determine your Body Mass Index to assess your weight status. Use <br> our simple calculator to gain insights into your health and track your progress towards your fitness goals.
+                </p>
                 
                 <div class="input-field">
                     <input class="pk" type="number" placeholder="Height/cm"> 
                     <input type="number" placeholder="Weight/Kg"> 
                     <input type="number" name="" id="" placeholder="Age">
-                    <input type="text" placeholder="Sex" >
-                    <input class="activity" type="text" placeholder="Select an activity factor">
-                    <!-- error 👇 -->
-                    <!-- <select  name="" id="">
+                    
+                    <select class="gender" name="" id="">
                         <option value="">Sex   </option>
                         <option value="">Male</option>
                         <option value="">Female</option> 
-                    </select> <br> -->
-                    <!-- <select name="" id="">
-                        <option value="">Select an activity factor</option>
-                    </select> -->
+                    </select> <br>
+                    
+                </div>
+                <div >
+                    <select class="factor" name="" id="">
+                        <option class="activity" value="">Select an activity factor</option>
+                    </select>
                 </div>
                 <button class="banner-btn">Calculate</button>
             </div>
@@ -195,7 +217,7 @@
           </div>
 
           <div class="team-img-container">
-            <div class="team-img">
+            <div class="team-img img-hide">
                 <img src="./images/trainer1.png" alt="">
                 <div class="move">
                     <h3 class="tainer-name">Jerome Bell</h3>
@@ -216,7 +238,7 @@
                     <p class="description-primary">Trainer</p>
                 </div>
             </div>
-            <div class="team-img">
+            <div class="team-img  img-hide">
                 <img src="./images/trainer4.png" alt="">
                 <div class="move">
                     <h3 class="tainer-name">Dianne Russell</h3>
@@ -240,15 +262,29 @@
 
           </div> 
          <!-- team section ends here  -->
+
+
+         <!-- personal challenge section starts here  -->
+
+         <section class="energy-container">
+            <div class="">
+                <h1> Physical Activity <br> Enhances <span class="positive">Positive Energy</span>!</h1>
+
+                <button class="gym-btn banner-btn">Join The Gym</button>
+            </div>
+            
+
+         </section>
+
+
+         <!-- personal challenge section ends here  -->
     </main>
 
     <footer class="footer-container ">
         <div class="section3-container">
             <div class="f-section">
                 <h1 id="fitness" class="fitness"><i>Fitness</i></h1>
-                <p class="description-primary">We believe fitness should be accessible to everyone,<br>
-                    everywhere, regardless of income or access to a gym. With <br>
-                    hundreds of professional workouts.</p>
+                <p class="description-primary ">Your ultimate destination for expert tips, effective workout routines, <br> and comprehensive nutrition advice. Empowering you to achieve your <br> health and wellness goals with personalized guidance and inspiration.<p>
             </div>
             <div class="started-section">
                 <h3 class="started-title">Get Started</h3>
