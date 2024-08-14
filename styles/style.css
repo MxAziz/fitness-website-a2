@@ -14,8 +14,8 @@ body{
 
 /* shared style  */
 .btn-primary{
-    border-radius: 46px;
-background-color: rgb(230, 83, 60);
+    border-radius: 42px;
+    background-color: rgb(230, 83, 60);
 }
 .description-primary{
     font-size: 0.8rem;
@@ -34,7 +34,6 @@ background-color: rgb(230, 83, 60);
     background-image: linear-gradient(to bottom, #141414, #222222, #141414);
 }
 
-/* ERROR  */
 .hamburger{
     font-size: 1.7rem;
     margin-top: 10px;
@@ -200,7 +199,7 @@ background-color: rgb(230, 83, 60);
 .habit-title{
     font-size: 2.8rem;
     font-weight: 900;
-    color: #fafafa;
+    color: #ffffff;
     margin-bottom: 20px;
 }
 .habit-description{
@@ -218,7 +217,6 @@ background-color: rgb(230, 83, 60);
 }
 .center{
     text-align: center;
-    /* margin-top: 30px; */
 }
 .hbt-title{
     font-size: 1.2rem;
@@ -234,9 +232,9 @@ background-color: rgb(230, 83, 60);
     height: 340px;
     margin: 0 auto;
     margin-top: 70px;
-    border-radius: 20px;
+    border-radius: 18px;
     padding: 25px 25px 25px 40px;
-    background-color: #232323e7;
+    background-color: #222222;
     display: flex;
     justify-content: space-between;
     gap: 190px;
@@ -244,7 +242,7 @@ background-color: rgb(230, 83, 60);
 .run-img img{
     width: 100%;
     height: 100%;
-    border-radius: 20px;
+    border-radius: 18px;
 }
 #run-img{
     object-fit: none;
@@ -631,6 +629,9 @@ tr td{
         width: 100%;
         min-width: 576px;
         height: 900px;
+    }
+    .reserved{
+        text-align: left;
     }
 
 
